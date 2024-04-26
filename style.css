@@ -30,7 +30,7 @@ h1{
 #article img{
     width: 100%;
 }
-@media (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     #grid {
          display: block;
     } 
