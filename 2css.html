@@ -1,35 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>web-css</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="color.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>web-css</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-  <h1><a href="index.html">WEB</a></h1>
-  <div id="grid">
-    <oL>
-      <li><a href="1html.html">html</a></li>
-      <li><a href="2css.html">css</a></li>
-      <LI><a href="3javascript.html">javascript</a></li>
-    </oL>
-    <div id="article">
-      <h2>css란?</h2>
-      <p><a href="https://www.w3schools.com/css/default.asp" target="_blank" title="w3school-html">CSS</a> is the
-        language we use to style an HTML document.
-        <br>CSS describes how HTML elements should be displayed.
-      </p>
-      <p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ONcmkf07EuI?si=epb8bZVLgXoTax-u"
-          title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      </p>
+  <body>
+    <h1><a href="index.html">WEB</a></h1>
+    <input
+      type="button"
+      id="night_day"
+      value="night"
+      onclick="nightDayHandler(this);"
+    />
+    <div id="grid">
+      <ol>
+        <li><a href="1html.html">html</a></li>
+        <li><a href="2css.html">css</a></li>
+        <li><a href="3javascript.html">javascript</a></li>
+      </ol>
+      <div id="article">
+        <h2>css란?</h2>
+        <p>
+          <a
+            href="https://www.w3schools.com/css/default.asp"
+            target="_blank"
+            title="w3school-html"
+            >CSS</a
+          >
+          is the language we use to style an HTML document. <br />CSS describes
+          how HTML elements should be displayed.
+        </p>
+        <p>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/ONcmkf07EuI?si=epb8bZVLgXoTax-u"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </p>
+      </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
